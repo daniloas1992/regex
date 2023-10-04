@@ -1,0 +1,3 @@
+// g - global: Procura no texto inteiro. Não para ao identificar a primeira ocorrência.
+
+// i - ignore case: Não distingue entre maiúscula e minúscula
