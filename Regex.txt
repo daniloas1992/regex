@@ -1,3 +1,22 @@
 // g - global: Procura no texto inteiro. Não para ao identificar a primeira ocorrência.
 
 // i - ignore case: Não distingue entre maiúscula e minúscula
+
+#Metacaracteres
+
+.       -> Representa um caractere qualquer
+[]      -> Conjunto de caracteres permitidos
+[^]     -> Conjunto de caracteres proibidos
+?       -> Zero ou um
+*       -> Zero ou mais
++       -> Um ou mais
+{n, m}  -> De n até m
+^       -> Início de linha
+$       -> Fim de linha
+\b      -> Início ou fim de palavra
+\       -> Escape
+|       -> Ou
+( )     -> Define um grupo
+\1...\9 -> Resgata grupos já definidos
+
+
