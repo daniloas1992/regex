@@ -1,0 +1,23 @@
+// Ponto é um coringa, válido para uma posição
+
+const texto = '1,2,3,4,5,6,7,8,9,0'
+
+//Busca por "1" + "Um caractere qualquer" + "2"
+console.log(texto.match(/1.2/g))
+
+//Busca por "1" + "Um caractere qualquer" + "Um caractere qualquer" + "2"
+console.log(texto.match(/1..2/g))
+
+//Busca por "1" + "Um caractere qualquer" + "Um caractere qualquer" + ","
+console.log(texto.match(/1..,/g))
+
+
+
+const notas = '8.3,7.1,6.8,8.8,10.0'
+
+
+//Busca por "8" + "Um caractere qualquer" + "Um caractere qualquer"
+console.log(notas.match(/8../g))
+
+//Busca por "Um caractere qualquer" + "." + "Um caractere qualquer"
+console.log(notas.match(/.\../g))
