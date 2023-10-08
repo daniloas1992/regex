@@ -32,3 +32,12 @@ $       -> Fim de linha
 
 - Dentro de um conjunto tudo é literal, os caractres não funcionam como metacaracteres
 - Com as exceções "-" e "^" que precisam de escape
+
+
+# Shorthands
+- "\w" equivale a [A-Za-z0-9_]
+- "\W" equivale a tudo que NÃO está contido em [A-Za-z0-9_]
+- "\d" equivale a [0-9]
+- "\D" equivale a [Tudo que for diferente de números]
+- "\s" equivale a espaços em branco: " " ou "\t" ou "\n" ou "r" ou "\f"
+- "\S" equivale a tudo que NÃO for espaço em branco
