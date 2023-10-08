@@ -20,3 +20,15 @@ $       -> Fim de linha
 \1...\9 -> Resgata grupos já definidos
 
 
+#Unicode
+- Quantidade de Byts variável - Expansível
+- Suporte mais de 1 milhão de caracteres
+- Atualmente tem mais de 100 mil caracteres atribuídos
+- https://unicode-table.com/pt
+- Utilizar "\u" + "Código Unicode"
+
+
+#Conjuntos
+
+- Dentro de um conjunto tudo é literal, os caractres não funcionam como metacaracteres
+- Com as exceções "-" e "^" que precisam de escape
