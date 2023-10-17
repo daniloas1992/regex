@@ -41,3 +41,18 @@ $       -> Fim de linha
 - "\D" equivale a [Tudo que for diferente de números]
 - "\s" equivale a espaços em branco: " " ou "\t" ou "\n" ou "r" ou "\f"
 - "\S" equivale a tudo que NÃO for espaço em branco
+
+# Quantificadores
+
+?    : Zero ou um
+*    : Zero ou mais
++    : Um ou mais
+{n,m}: De n até m
+
+{2,3} : De dois a três
+{3,}  : Três ou mais 
+{0,4} : Até quatro
+{2}   : Exatamente dois
+{0,1} : Zero ou um 
+{0,}  : Zero ou mais
+{1,}  : Um ou mais
