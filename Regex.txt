@@ -56,3 +56,12 @@ $       -> Fim de linha
 {0,1} : Zero ou um 
 {0,}  : Zero ou mais
 {1,}  : Um ou mais
+
+
+# Retrovisores
+
+Para cada grupo "()" existe um retrovisor que é referenciado por \n
+Onde "n" é o número referente ao retrovisor, começando pelo número "1" ond ficaria \1
+"?:" faz com que não seja armazenado o conteúdo
+
+Grupo não funcio dentro de conjunto: [()]
