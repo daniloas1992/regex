@@ -64,4 +64,17 @@ Para cada grupo "()" existe um retrovisor que é referenciado por \n
 Onde "n" é o número referente ao retrovisor, começando pelo número "1" ond ficaria \1
 "?:" faz com que não seja armazenado o conteúdo
 
-Grupo não funcio dentro de conjunto: [()]
+Grupo não funciona dentro de conjunto: [()]
+
+
+# Postive lookahed->  (?= )
+Olha o que vem a seguir para pegar o que está atrás
+
+# Negative lookahed->  (?! )
+Na frente não pode conter a combinação
+
+# Positive lookbehind  (?<= )
+Olha o vem antes e pega o que tem depois (Prefixo)
+
+# Negative lookbehind  (?<! )
+Olha o vem antes NÃO pode ser o termo buscado
