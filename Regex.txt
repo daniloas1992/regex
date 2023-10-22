@@ -1,6 +1,6 @@
-// g - global: Procura no texto inteiro. Não para ao identificar a primeira ocorrência.
-
-// i - ignore case: Não distingue entre maiúscula e minúscula
+// g : global: Procura no texto inteiro. Não para ao identificar a primeira ocorrência.
+// i : ignore case: Não distingue entre maiúscula e minúscula
+// m : faz com que cada linha seja analisada de forma individual
 
 #Metacaracteres
 
@@ -42,6 +42,10 @@ $       -> Fim de linha
 - "\s" equivale a espaços em branco: " " ou "\t" ou "\n" ou "r" ou "\f"
 - "\S" equivale a tudo que NÃO for espaço em branco
 
+# Bordas
+- "\b" borda de palavras. Equivale a [^A-Za-z0-9_]...
+- Acentuação são identificadas como bordas
+
 # Quantificadores
 
 ?    : Zero ou um
@@ -78,3 +82,4 @@ Olha o vem antes e pega o que tem depois (Prefixo)
 
 # Negative lookbehind  (?<! )
 Olha o vem antes NÃO pode ser o termo buscado
+
