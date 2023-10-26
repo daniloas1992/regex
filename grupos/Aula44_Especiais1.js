@@ -8,14 +8,14 @@ const texto = 'João é calmo, mas no trânsito fica nervoso.'
 // \w   : equivale a [A-Za-z0-9_]
 // À-ú  : incluir caracteres com acentuação
 console.log(texto.match(/[\wÀ-ú]+/gi))
-
+console.log('--')
 
 // []+    : Grupo, com um ou mais caracteres
 // \w     : equivale a [A-Za-z0-9_]
 // À-ú    : incluir caracteres com acentuação
 // (?=,)  : na frente precisa conter uma vírgula
 console.log(texto.match(/[\wÀ-ú]+(?=,)/gi))
-
+console.log('--')
 
 // []+    : Grupo, com um ou mais caracteres
 // \w     : equivale a [A-Za-z0-9_]
